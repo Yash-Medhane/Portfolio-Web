@@ -20,7 +20,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:5000/send', formData); // replace 'your_backend_endpoint' with your actual backend endpoint
+            const response = await axios.post('/api/contact', formData); // Updated API endpoint
             console.log('SUCCESS!', response.status, response.data);
             alert('Message sent successfully!');
         } catch (error) {
