@@ -36,7 +36,7 @@ const Navbar = () => {
         </button>
         {/* Navigation Links */}
         <ul
-          className={`md:flex md:space-x-6 absolute md:relative top-16 md:top-auto left-0 md:left-80 w-full md:w-auto bg-teal-700 dark:bg-coral-700 p-4 md:p-0 transition-transform ease-in-out duration-300 ${
+          className={`md:flex md:space-x-6 absolute md:relative top-16 md:top-auto left-0 md:left-96 w-full md:w-auto bg-teal-700 dark:bg-coral-700 p-4 md:p-0 transition-transform ease-in-out duration-300 ${
             isOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
         >

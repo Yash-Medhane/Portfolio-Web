@@ -41,6 +41,7 @@ const ContactForm = () => {
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
+                        title="map"
                     ></iframe>
                 </div>
 
